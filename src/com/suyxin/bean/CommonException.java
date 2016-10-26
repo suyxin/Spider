@@ -1,4 +1,4 @@
-package com.zhy.bean;
+package com.suyxin.bean;
 
 public class CommonException extends Exception
 {

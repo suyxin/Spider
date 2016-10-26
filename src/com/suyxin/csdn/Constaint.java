@@ -1,4 +1,4 @@
-package com.zhy.csdn;
+package com.suyxin.csdn;
 
 public interface Constaint
 {

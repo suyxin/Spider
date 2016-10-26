@@ -1,34 +1,20 @@
-package com.zhy.bean;
+package com.suyxin.bean;
 
 public class NewsItem
 {
 	private int id;
 
-	/**
-	 * 
-	 */
+
 	private String title;
-	/**
-	 * 
-	 */
+
 	private String link;
-	/**
-	 * 
-	 */
+	
 	private String date;
-	/**
-	 * ͼƬ������
-	 */
+	
 	private String imgLink;
-	/**
-	 * ����
-	 */
+
 	private String content;
 
-	/**
-	 * ����  
-	 * 
-	 */
 	private int newsType;
 
 	public int getNewsType()

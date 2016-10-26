@@ -1,4 +1,4 @@
-package com.zhy.csdn;
+package com.suyxin.csdn;
 
 public class URLUtil
 {
@@ -11,7 +11,7 @@ public class URLUtil
 	public static final String NEWS_LIST_URL_YEJIE = "http://news.csdn.net/news";
 
 	/**
-	 * 根据文章类型，和当前页码生成url
+	 *
 	 * @param newsType
 	 * @param currentPage
 	 * @return

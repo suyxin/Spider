@@ -1,16 +1,16 @@
-package com.zhy.csdn;
+package com.suyxin.csdn;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import com.zhy.bean.CommonException;
+import com.suyxin.bean.CommonException;
 
 public class DataUtil
 {
 
 	/**
-	 * ·µ»Ø¸ÃÁ´½ÓµØÖ·µÄhtmlÊý¾Ý
+	 * ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½Óµï¿½Ö·ï¿½ï¿½htmlï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param urlStr
 	 * @return
@@ -42,12 +42,12 @@ public class DataUtil
 				is.close();
 			} else
 			{
-				throw new CommonException("·ÃÎÊÍøÂçÊ§°Ü£¡");
+				throw new CommonException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½");
 			}
 
 		} catch (Exception e)
 		{
-			throw new CommonException("·ÃÎÊÍøÂçÊ§°Ü£¡");
+			throw new CommonException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½");
 		}
 		return sb.toString();
 	}
