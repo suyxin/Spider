@@ -10,7 +10,7 @@ public class DataUtil
 {
 
 	/**
-	 * ���ظ����ӵ�ַ��html����
+	 * 
 	 * 
 	 * @param urlStr
 	 * @return
