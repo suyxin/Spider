@@ -5,28 +5,28 @@ public class NewsItem
 	private int id;
 
 	/**
-	 * 标题
+	 * 
 	 */
 	private String title;
 	/**
-	 * 链接
+	 * 
 	 */
 	private String link;
 	/**
-	 * 发布日期
+	 * 
 	 */
 	private String date;
 	/**
-	 * 图片的链接
+	 * 图片锟斤拷锟斤拷锟斤拷
 	 */
 	private String imgLink;
 	/**
-	 * 内容
+	 * 锟斤拷锟斤拷
 	 */
 	private String content;
 
 	/**
-	 * 类型  
+	 * 锟斤拷锟斤拷  
 	 * 
 	 */
 	private int newsType;
